@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d359c88-c22c-456f-bcfd-b5990eaee106" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-common/src/main/java/com/my/example/common/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-common/src/main/java/com/my/example/common/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-common/src/test/java/com/my/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/my/example/consumer/ConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/my/example/consumer/UserServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-consumer/src/test/java/com/my/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-provider/src/main/java/com/my/example/provider/ProviderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-provider/src/main/java/com/my/example/provider/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-provider/src/test/java/com/my/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-springboot-consumer/src/main/java/com/my/examplespringbootconsumer/ExampleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-springboot-consumer/src/test/java/com/my/examplespringbootconsumer/ExampleServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-springboot-provider/src/main/java/com/my/examplespringbootprovider/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc-starter/src/main/java/com/my/rpc/springboot/starter/annotation/EnableRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc-starter/src/main/java/com/my/rpc/springboot/starter/annotation/RpcReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc-starter/src/main/java/com/my/rpc/springboot/starter/annotation/RpcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc-starter/src/main/java/com/my/rpc/springboot/starter/bootstrap/RpcConsumerBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc-starter/src/main/java/com/my/rpc/springboot/starter/bootstrap/RpcInitBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc-starter/src/main/java/com/my/rpc/springboot/starter/bootstrap/RpcProviderBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/RpcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/bootstrap/ConsumerBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/bootstrap/ProviderBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/config/RegistryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/config/RpcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/constant/RpcConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/retry/FixedIntervalRetryStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/retry/NoRetryStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/retry/RetryStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/retry/RetryStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/retry/RetryStrategyKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/tolerant/FailBackTolerantStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/tolerant/FailFastTolerantStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/tolerant/FailOverTolerantStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/tolerant/FailSafeTolerantStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/tolerant/TolerantStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/tolerant/TolerantStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/fault/tolerant/TolerantStrategyKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/loadbalancer/ConsistentHashLoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/loadbalancer/LoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/loadbalancer/LoadBalancerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/loadbalancer/LoadBalancerKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/loadbalancer/LoadBalancerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/loadbalancer/RandomLoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/loadbalancer/RoundRobinLoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/model/RpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/model/RpcResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/model/ServiceMetaInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/model/ServiceRegisterInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/protocol/ProtocolConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/protocol/ProtocolMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/protocol/ProtocolMessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/protocol/ProtocolMessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/protocol/ProtocolMessageSerializerEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/protocol/ProtocolMessageStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/protocol/ProtocolMessageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/protocol/ProtocolMessageTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/proxy/MockServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/proxy/ServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/proxy/ServiceProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/registry/EtcdRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/registry/LocalRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/registry/Registry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/registry/RegistryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/registry/RegistryServiceCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/serializer/HessianSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/serializer/JdkSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/serializer/JsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/serializer/KryoSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/serializer/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/serializer/SerializerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/serializer/SerializerKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/server/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/server/HttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/server/VertxHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/server/tcp/TcpBufferHandlerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/server/tcp/TcpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/server/tcp/VertxTcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/server/tcp/VertxTcpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/java/com/my/rpc/spi/SpiLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/resources/META-INF/rpc/custom/com.my.rpc.serializer.Serializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/resources/META-INF/rpc/system/com.my.rpc.fault.retry.RetryStrategy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/resources/META-INF/rpc/system/com.my.rpc.fault.tolerant.TolerantStrategy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/resources/META-INF/rpc/system/com.my.rpc.loadbalancer.LoadBalancer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/resources/META-INF/rpc/system/com.my.rpc.registry.Registry" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/resources/META-INF/rpc/system/com.my.rpc.serializer.Serializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/resources/META-INF/services/com.my.rpc.serializer.Serializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-rpc/src/test/java/com/my/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2tvpGL5nwuYD14X97WF0lVGilTO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ExampleServiceImplTest.test1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExampleServiceImplTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoadBalancerTest.select.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProtocolMessageTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistryTest.heartBeat.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistryTest.register.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistryTest.serviceDiscovery.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistryTest.unRegister.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RetryStrategyTest.doRetry.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ExampleSpringbootConsumerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ExampleSpringbootProviderApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ExampleSpringbootProviderApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/Project/myrpc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ConsumerExample.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.EasyConsumerExample.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.EasyProviderExample.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.EtcdRegistry.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.ProviderExample.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.VertxTcpClient.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.VertxTcpServer.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\Project\yupi-rpc\yu-rpc-core\src\main\resources\META-INF\services" />
+      <recent name="C:\Java\Project\yupi-rpc\yu-rpc-core\src\main\resources\META-INF\rpc" />
+      <recent name="C:\Java\Project\yupi-rpc\example-consumer\src\main\resources\META-INF\rpc\custom" />
+      <recent name="C:\Java\Project\yupi-rpc\yu-rpc-core\src\main\resources" />
+      <recent name="C:\Java\Project\yupi-rpc\example-provider\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\Project\yupi-rpc\example-consumer\src\main\resources\META-INF\rpc" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yupi.examplespringbootconsumer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yupi.example.consumer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MavenRunConfiguration" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.ConsumerExample">
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.example.consumer.ConsumerExample" />
+      <module name="example-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.example.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.example.provider.ProviderExample" />
+      <module name="example-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.example.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleServiceImplTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="example-springboot-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.examplespringbootconsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.my.examplespringbootconsumer" />
+      <option name="MAIN_CLASS_NAME" value="com.my.examplespringbootconsumer.ExampleServiceImplTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleSpringbootConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="example-springboot-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.examplespringbootconsumer.ExampleSpringbootConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.examplespringbootconsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleSpringbootProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="example-springboot-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.examplespringbootprovider.ExampleSpringbootProviderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.examplespringbootprovider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.ConsumerExample" />
+        <item itemvalue="应用程序.ProviderExample" />
+        <item itemvalue="Spring Boot.ExampleSpringbootConsumerApplication" />
+        <item itemvalue="Spring Boot.ExampleSpringbootProviderApplication (1)" />
+        <item itemvalue="JUnit.ExampleServiceImplTest.test1 (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7d359c88-c22c-456f-bcfd-b5990eaee106" name="更改" comment="" />
+      <created>1741242307958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741242307958</updated>
+      <workItem from="1741242309043" duration="15957000" />
+      <workItem from="1741332608007" duration="13978000" />
+      <workItem from="1741405621642" duration="9474000" />
+      <workItem from="1741426103836" duration="7193000" />
+      <workItem from="1741493317708" duration="14263000" />
+      <workItem from="1741512697108" duration="573000" />
+      <workItem from="1741585679728" duration="17290000" />
+      <workItem from="1741663984766" duration="5521000" />
+      <workItem from="1741754499091" duration="9763000" />
+      <workItem from="1741777247503" duration="11741000" />
+      <workItem from="1741839084988" duration="1776000" />
+      <workItem from="1741841031921" duration="7345000" />
+      <workItem from="1741923147966" duration="3657000" />
+      <workItem from="1742010176040" duration="2841000" />
+      <workItem from="1742014594255" duration="36000" />
+      <workItem from="1742014646038" duration="4744000" />
+      <workItem from="1742102372495" duration="180000" />
+      <workItem from="1742102611635" duration="115000" />
+      <workItem from="1742102768772" duration="17774000" />
+      <workItem from="1742120620782" duration="118000" />
+      <workItem from="1742127525302" duration="1206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

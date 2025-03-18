@@ -1,0 +1,4 @@
+jdk=com.my.rpc.serializer.JdkSerializer
+hessian=com.my.rpc.serializer.HessianSerializer
+json=com.my.rpc.serializer.JsonSerializer
+kryo=com.my.rpc.serializer.KryoSerializer
